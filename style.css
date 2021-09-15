@@ -1,19 +1,12 @@
-/*=====================
-   comon css
-========================================*/
-
-
+/*========
+comon css
+===============*/
 html{
 	scroll-behavior:smooth;
 }
 
 #body_bg{
 	background:#000;
-
-}
-
-h1,h2,h3,h4,h5,h6{
-	
 }
 
 .hr_style{
@@ -26,11 +19,13 @@ h1,h2,h3,h4,h5,h6{
 	color: #f0f8ff;
 }
 
-/*=====================
-   navbar area
-===================================*/
+.d-grid{
+    display:grid;
+}
 
-
+/*=====
+ navbar area
+============*/
 .logo_w{
     width: 50%;
 }
@@ -46,10 +41,8 @@ h1,h2,h3,h4,h5,h6{
     width: 50%;
 }
 
-
 .nav_items{
     margin:0 auto;
-
 }
 
 .nav_items li{
@@ -61,11 +54,9 @@ h1,h2,h3,h4,h5,h6{
    border-radius:10px;
 }
 
-
-/*=====================
-   header area
-===================================*/
-
+/*==
+header area
+=============*/
 header{
 	background-image:url("img/img1.jpg");
 	background-position:center;
@@ -83,12 +74,9 @@ header{
 	font-family: sans-serif;
 	border-radius:5px;
 }
-
-
-
-/*=====================
-   features section
-========================================*/
+/*=====
+ features 
+=============*/
 #features{
 	padding:5% 10%;
 	background:#E8E8FF;
@@ -115,11 +103,9 @@ header{
 	margin:5px 0;
 }
 
-
-/*=====================
-  about me section
-========================================*/
-
+/*====
+  about
+===========*/
 #about_me{
 	padding:5% 10%;
 	background:#000;
@@ -146,7 +132,6 @@ header{
 	font-size:1rem;
 }
 
-
 .achieve-desc h3{
 	color: #ebf3fb;
 }
@@ -159,9 +144,9 @@ header{
 	color: #ebf3fb;
 }
 
-/*=====================
-  Tutorial section
-=====================================*/
+/*====
+Tutorial 
+==============*/
 #tutorial{
 	background:#000;
 	padding-top: 3%;
@@ -179,9 +164,17 @@ header{
 	border:0;
 }
 
-/*=====================
-  Carousel/FeedBack section
-=====================================*/
+.card-link{
+	text-decoration:underline;
+}
+
+.card-link:hover{
+	text-decoration:underline;
+}
+
+/*=======
+Carousel/FeedBack
+====================*/
 #carousel_area{
 	background:#000;
 	padding-top: 3%;
@@ -204,10 +197,8 @@ header{
 .carousel_img{
 	width:150px;
 	height:auto;
-	margin-bottom:30px;
-	
+	margin-bottom:30px;	
 }
-
 
 .carousel-item .blockquote{
 	padding-bottom:6%;
@@ -218,20 +209,17 @@ header{
 	font-size:1.1rem;
 }
 
-
-/*=====================
-  contact area section
-==================================*/
+/*==
+contact
+==========*/
 #contact_area{
 	background:#000;
 	padding: 5% 0;
 }
 
-
 .w-25 {
     width: 40% !important;
 }
-
 
 .my_form_style input{
     border: none;
@@ -268,18 +256,21 @@ input:focus-visible{
     margin-top:17%!important;
 }
 
-
 .type_massage textarea{
     border:none;
 }
 
 
-/*=====================
-  footer area
-=====================================*/
+/*==
+footer
+========*/
 footer{
 	background:#000;
 	border-top:2px solid #aeaeae38;
+}
+
+.p_center{
+	color:#ccc;
 }
 
 .social-links{
@@ -292,7 +283,7 @@ footer{
     width: 35px;
     height: 35px;
     text-align: center;
-    color: #052bfb;
+    color:#a4a4a4;
     box-shadow: 0px 0px 8px 0px rgba(244, 191, 191, 0.48);
     margin: 5px 3px;
     border-radius: 50%;
@@ -321,7 +312,6 @@ footer{
    top:0;
 }
 
-
 .social-links .fab{
 	font-size:15px;
 	line-height:35px;
@@ -334,18 +324,14 @@ footer{
    color:#fff;
 }
 
-
-
-
-/*=====================
-  for responsive some section
-=====================================*/
+/*=====
+responsive
+===============*/
 
 @media (max-width: 575px) {
 .banner_area{
 	height:60vh;
 }
-
 
 .banner_content .mb{
 	margin-bottom:1rem!important;
@@ -355,11 +341,9 @@ footer{
 	width:60%!important;
 }
 
-
 .carousel-inner {
     width:94%;
 }
-
 
 .w-25 {
     width:100%!important;
@@ -371,7 +355,6 @@ footer{
     font-size: small;
     margin-top: 6% !important;
 }
-
 
 .type_massage {
     margin-top:10%!important;
@@ -410,12 +393,9 @@ footer{
 	padding-top:15%;
 }
 
-
 }
 
 @media ( min-width: 576px ) and (max-width: 767px ){
-
-
 .type_massage {
     margin-top:25%!important;
 }
@@ -425,12 +405,10 @@ footer{
 	padding-left:0;
 }
 
-
 .btn_group button {
     width: 23%;
     margin-top: 4% !important;
 }
-
 
 #features{
 	padding-top:8%;
@@ -452,9 +430,7 @@ footer{
 	padding-top:8%;
 }
 
-
 }
-
 
 @media ( min-width: 768px) and (max-width: 992px ){
 #features{
@@ -477,21 +453,4 @@ footer{
 	padding-top:8%;
 }
 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
